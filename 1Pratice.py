@@ -16,5 +16,27 @@ print(age)
 # için durum True olacaktır yani age = 1 veya 110120120 veya -123423 olsa bile her zaman True olacaktır. 
 # listeler
 renkler = ["Siyah", "Beyaz", "Sarı", "Mavi", "Yeşil"]
-
 print(type(renkler))
+# Listemizde kaç tane renk var?
+print(len(renkler))
+# renkler listesinin 1. rengini çıktı olarak ver: 0.renk siyah, 1. renk Beyaz 2.renk sarı diye gidiyor.
+print(renkler[1])
+# renkler listesinin 1.renginden 4.rengine kadar yazdır.
+# bu sırada 1.renkten başlar 4.renge kadar yazar ama 4.rengi yazmaz.
+print(renkler[1:4])
+# 2şer 2şer yazdır. Yani Siyah, Sarı, Yeşil yazmalı.
+print(renkler[::2])
+# 0.indekse gri eklemek için:
+renkler.insert(0, "Gri")
+print(renkler)
+# remove ile renklerden Siyah'ı sil
+renkler.remove("Siyah")
+print(renkler)
+# Listeye birden fazla renk ekle extend metoduyla.
+renkler2 = ["Turuncu", "Pembe"]
+renkler.extend(renkler2)
+print(renkler)
+# Eğer yukarıda'ki muhabbeti extend değilde append ile yapsaydın şu şekilde:
+# ['Turuncu', 'Pembe'] olurdu ama olması gereken üstteki gibidir.
+renkler.append(renkler2)
+print(renkler)
