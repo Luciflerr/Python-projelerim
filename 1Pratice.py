@@ -14,3 +14,7 @@ print(age)
 
 # eğer bir şeyi boolean yapmak istiyorsak bool(age) yazmalıyız ve eğer age = 0 iste False olacaktır fakat 0 harici herşey
 # için durum True olacaktır yani age = 1 veya 110120120 veya -123423 olsa bile her zaman True olacaktır. 
+# listeler
+renkler = ["Siyah", "Beyaz", "Sarı", "Mavi", "Yeşil"]
+
+print(type(renkler))
