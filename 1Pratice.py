@@ -40,7 +40,13 @@ print(renkler)
 # ['Turuncu', 'Pembe'] olurdu ama olması gereken üstteki gibidir.
 renkler.append(renkler2)
 print(renkler)
-
-# kümeler {} içine yazılır ayrıca print verince elemanları random verir.
+# Listeler [içine yazılır]
+# Listelerde append ile listenin sonuna bir şey ekleyebiliriz fakat
+# kümelerde bu böyle değildir.
+# kümeler {içine yazılır ayrıca print verince elemanları random verir çünkü sıralama diye bir anlam yok.}
 kume = {"Sarı", "Mavi", "Yeşil", "Kırmızı", "Siyah"}
+print(kume)
+kume.add("Pembe")
+print(kume)
+kume.remove("Sarı")
 print(kume)
