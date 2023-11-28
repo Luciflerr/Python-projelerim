@@ -40,3 +40,7 @@ print(renkler)
 # ['Turuncu', 'Pembe'] olurdu ama olması gereken üstteki gibidir.
 renkler.append(renkler2)
 print(renkler)
+
+# kümeler {} içine yazılır ayrıca print verince elemanları random verir.
+kume = {"Sarı", "Mavi", "Yeşil", "Kırmızı", "Siyah"}
+print(kume)
