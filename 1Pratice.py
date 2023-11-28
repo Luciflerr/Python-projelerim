@@ -50,3 +50,23 @@ kume.add("Pembe")
 print(kume)
 kume.remove("Sarı")
 print(kume)
+# olmayan bir rengi silmek için ise discard yapabiliriz. remove ile yaparsak hata alırız.
+kume.discard("Gri")
+print(kume)
+# intersection : belirli bir kümenin içinden diğer kümeyle "aynı" olan ifadeleri yazdırır.
+kume2 = {"Sarı", "Mavi", "Yeşil", "Turkuaz", "Mor"}
+print(kume.intersection(kume2))
+# difference : belirli bir kümenin içinden diğer kümeyle "farklı" olan ifadeleri yazdırır.
+print(kume.difference(kume2))
+# union : farklı kümeleri birleştirir. Aynı elemanı eklemez. Aynı eleman 1 tane olur.
+print(kume.union(kume2))
+# "Beyaz" in kume = kume içerisinde "beyaz" eleman var mı? Var ise true değerini verir.
+print("Beyaz" in kume)
+# "Sarı" in kume.union(kume2) = kume içerisinde "Sarı" eleman var mı? Var ise true değerini verir.
+print("Sarı" in kume.union(kume2))
+# Bos liste oluşturmak için
+bosliste1 = []
+bosliste2 = list()
+# bos küme için
+boskume1 = {}
+boskume2 = set()
