@@ -70,3 +70,7 @@ bosliste2 = list()
 # bos küme için
 boskume1 = {}
 boskume2 = set()
+python = set("PYTHON")
+set1 = set([1,2,3,4,5])
+print(python)
+print(set1)
