@@ -90,4 +90,7 @@ print(kisi.keys())
 print(kisi.values())
 # eğer ikisini'de almak istersem onu da items ile yapabiliriz.
 print(kisi.items()
-
+cardict = {"brand": "Opel", "model": "Astra", "year": 2020, "colors": ["blue", "red", "white"]}
+print(cardict)
+cardict.update({"colors" : ["blue", "red", "white", "green"]})
+print(cardict)
