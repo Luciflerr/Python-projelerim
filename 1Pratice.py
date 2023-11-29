@@ -77,5 +77,6 @@ print(set1)
 
 # sözlük kısımı
 kisi = {"isim" : "ali" , "yas" : 20 , "cinsiyet" : "m" , "hobiler" : ["sinema", "konser", "yazılım"]}
+kisi["id"] = 454545
 print(kisi)
 
