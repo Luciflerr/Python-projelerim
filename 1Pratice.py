@@ -74,3 +74,8 @@ python = set("PYTHON")
 set1 = set([1,2,3,4,5])
 print(python)
 print(set1)
+
+# sözlük kısımı
+kisi = {"isim" : "ali" , "yas" : 20 , "cinsiyet" : "m" , "hobiler" : ["sinema", "konser", "yazılım"]}
+print(kisi)
+
