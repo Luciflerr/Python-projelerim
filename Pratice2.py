@@ -34,3 +34,24 @@ elif renk == "Gri":
     print("Gri")
 else:
     print("Hiçbiri")
+merve = 19
+caner = 18
+elsa = 19
+# -------------OR kullanımı------- ikisinden biri doğru olmak zorunda.
+# or'da ikisinden biri doğru olsa bile sonucunda if çalışır fakat and kullanımında hepsi doğru olmak zorunda eğer yanlışsa else çalışır.
+if elsa == merve or caner == elsa:
+    print("Koşul doğru")
+else:
+    print("Koşul yanlış")
+# ----------------and------------ ikisi birden doğru olmak zorunda.
+if caner == elsa and caner < merve:
+    print("Koşul doğru")
+else:
+    print("Koşul yanlış")
+# ----------------in-------------
+liste = [1,2,3,4,6,7,8,9]
+ca = 5
+if ca in liste:
+    print("Liste'de var.")
+else:
+    print("Liste'de yok.")
