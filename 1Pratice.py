@@ -77,6 +77,17 @@ print(set1)
 
 # sözlük kısımı
 kisi = {"isim" : "ali" , "yas" : 20 , "cinsiyet" : "m" , "hobiler" : ["sinema", "konser", "yazılım"]}
+print(kisi)
+# eğer dictionaries'e bir eleman eklemek istersek şu şekilde yapabiliriz.
 kisi["id"] = 454545
 print(kisi)
+# silmek için del fonksiyonu kullanabiliriz.
+del kisi["isim"]
+print(kisi)
+# eğer sadece anahtarları almak istersem.
+print(kisi.keys())
+# eğer sadece values'leri almak istersem
+print(kisi.values())
+# eğer ikisini'de almak istersem onu da items ile yapabiliriz.
+print(kisi.items()
 
