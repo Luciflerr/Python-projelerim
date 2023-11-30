@@ -47,3 +47,16 @@ for i in list:
     if i == 81:
         break
     print(i)
+# while : x < 10 yani x 10'dan küçükse x 10 olana kadar 1 arttır.
+x = 2
+while x < 10:
+    print(x)
+    x += 1 #x + 1 demek yani x'i 1 arttır.
+print("x =", x)
+
+c = 2
+d = 3
+while c * d < 1000:
+    print(c,d)
+    c += 2
+    d += 2
