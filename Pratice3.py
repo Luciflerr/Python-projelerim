@@ -23,3 +23,27 @@ liste2 = [1,2,3]
 for harf in liste1:
     for rakam in liste2:
         print(harf,rakam)
+# continue = eğer listenin içinden herhangi bir rakamı yazdırmak istemiyorsak ve devam etmesini istiyorsak i == 3 yaparız ve 3. sayıyı yazdırmayız.
+liste = [1,2,3,4,5,6,7,8,9]
+for i in liste:
+    if i == 3:
+        print("Burada'ki sayıyı atladık.")
+        continue
+    print(i)
+
+# break = continue'nin aynısı sadece herhangi bir sayıya kadar (mesela 3 e kadar ama 3 dahil değil) yazdırdıktan sonra durmak istediğimizde kullanırız.
+for i in liste:
+    if i == 3:
+        break
+    print(i)
+
+# Range = altta'ki komut 0 dan 99 a kadar sayacak bir komuttur.
+list = range(100)
+# 3 erli 3 erli 0 dan 100 e kadar saydırmak için
+for i in list:
+    if i % 3 != 0:
+        continue
+    #     3 erli 3 erli 81 e kadar sayması için fakat burada 81 oldumu durma komutu uyguladık.
+    if i == 81:
+        break
+    print(i)
