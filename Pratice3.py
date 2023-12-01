@@ -60,3 +60,14 @@ while c * d < 1000:
     print(c,d)
     c += 2
     d += 2
+# Asal sayılar.
+soru = int(input("Lütfen Sayınızı Giriniz:"))
+deger = True
+for i in range(2,soru):
+    if soru %i == 0:
+        deger = False
+        break
+if deger == True:
+    print(f"{soru} sayısı asal sayıdır.")
+else:
+    print(f"{soru} Bu sayı asal değildir.")
