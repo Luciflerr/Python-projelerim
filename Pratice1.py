@@ -94,3 +94,12 @@ cardict = {"brand": "Opel", "model": "Astra", "year": 2020, "colors": ["blue", "
 print(cardict)
 cardict.update({"colors" : ["blue", "red", "white", "green"]})
 print(cardict)
+# ekrana ard arda 5 sayı isteyen ve en büyük ve en küçük sayıyı yazan kodu yaz
+liste = []
+
+for i in range(5):
+    sayi = int(input("Sayınızı giriniz."))
+    liste.append(sayi)
+
+print(f"{max(liste)}En büyük sayı")
+print(f"{min(liste)}En küçük sayı")
