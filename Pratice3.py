@@ -72,6 +72,7 @@ if deger == True:
 else:
     print(f"{soru} Bu sayı asal değildir.")
 
+metin = input("Bir metin giriniz.")
 sozluk = dict()
 for harf in metin:
     if harf in sozluk:
