@@ -78,5 +78,5 @@ for harf in metin:
         sozluk[harf] += 1
     else:
         sozluk[harf] = 1
-for harf,adet in sozluk.items()
+for harf,adet in sozluk.items():
     print(harf,adet)
