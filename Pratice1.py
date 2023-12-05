@@ -103,3 +103,6 @@ for i in range(5):
 
 print(f"{max(liste)}En büyük sayı")
 print(f"{min(liste)}En küçük sayı")
+
+# Bir sayının başka bir sayıya eşit olup olmadığını kontrol etmek için eşitsizlik operatörünü kullanırız .!=
+print(1 != 10)
